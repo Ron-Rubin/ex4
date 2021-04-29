@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+body {
+    background-color: bisque;
+    padding-bottom: 30px;
+
+}
+header {
+    margin-top: 50px;
+    text-align: center;
+    height: 120px;
+}
+p {
+    display: inline;
+}
+
+input {
+display: inline;
+color: white;
+}
+
+h1 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 80px;
+}
+
+#wrapper {
+width: 90%;
+margin: 0 auto;
+background-color: salmon;
+text-align: center;
+font-size: 40px;
+padding-bottom: 30px;
+}
+
+.question {
+    color: salmon;
+    font-family: 'Freckle Face', cursive;
+}
+.question:hover {
+color: azure;
+}
+.numbers {
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+}
+label {
+    height: 80px;
+    margin-left: auto;
+}
+
+
+#submit {
+    visibility: hidden;
+}
+#reset {
+    visibility: hidden;
+}
+
+#button {
+    visibility: visible;
+ }
+
+ .form-control {
+    margin: 0 auto;     
+    width: 30%;
+    color: white;
+
+ }
+ .address {
+     width: 100%;
+ }
+
